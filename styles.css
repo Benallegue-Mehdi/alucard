@@ -1,0 +1,130 @@
+html {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  font-family: VT323, sans-serif;
+  font-size: 16px;
+  background-color: rgb(8, 9, 10);
+  color: hsl(0, 0%, 88%)
+}
+  
+h1 {
+  text-align: center;
+  font-size: 46px;
+  margin: 1.2em 0 0.7em;
+  color: rgb(225, 196, 180)
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h2, .character {
+
+  color: rgb(250, 180, 0)
+}
+
+h1, h2 {
+  font-family: "Press Start 2P", serif;
+}
+
+section {
+  margin-bottom: 3em;
+}
+
+
+figure {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6em;
+}
+
+#img-div {
+  margin-bottom: 5rem;
+}
+
+#concept {
+  display: block;
+  margin-left: -5vw;
+  max-width: 530px;
+  aspect-ratio: 53 / 70;
+}
+
+#art {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+#face {
+  margin-top: 1em;
+  max-width: 530px;
+  aspect-ratio: 53 / 70;
+}
+
+#weapons {
+  max-width: 665px;
+  aspect-ratio: 133 / 140;
+}
+
+#transform {
+  max-width: 640px;
+  aspect-ratio: 32 / 35;
+}
+
+#cover {
+  max-width: 500px;
+  aspect-ratio: 5 / 7;
+}
+
+figcaption {
+  text-align: center;
+}
+
+body {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+  max-width: 700px;
+  min-width: 300px;
+}
+
+body a {
+  color: red;
+}
+
+p {
+  margin-left: 0.5em;
+}
+
+p, figcaption {
+  font-size: 22px;
+}
+
+hr {
+  margin: 3rem 0 0;
+}
+
+footer {
+  padding-bottom: 2em;
+}
+
+blockquote {
+  border-left: 3px solid red;
+  margin-left: 12px;
+  padding-left: 12px;
+  margin-bottom: 2.5rem;
+}
+
+blockquote:last-of-type {
+  margin-bottom: 0;
+}
+
+.character {
+  font-family: "Press Start 2P";
+  font-size: 14px;
+  vertical-align: -2px;
+}
